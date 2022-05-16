@@ -7,6 +7,9 @@ const currentDate = new Date();
 console.log(currentDate);
 const year = currentDate.getFullYear();
 
+const img =
+  "https://upload.wikimedia.org/wikipedia/commons/archive/5/53/20210618182605%21Google_%22G%22_Logo.svg";
+
 ReactDOM.render(
   <div>
     {/* class is className in js */}
@@ -29,6 +32,10 @@ ReactDOM.render(
       <li> </li>
       <li> </li>
     </ul>
+    <div>
+      {/* img src... */}
+      <img className="google-img" src={img} />
+    </div>
   </div>,
   document.getElementById("root")
 );

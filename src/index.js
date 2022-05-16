@@ -9,7 +9,8 @@ const year = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
-    <h1>Header 1</h1>
+    {/* class is className in js */}
+    <h1 className="heading">Header 1</h1>
     <p>Paragraph</p>
     <ul>
       <li> Tc1 </li>

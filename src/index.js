@@ -34,7 +34,7 @@ ReactDOM.render(
     </ul>
     <div>
       {/* img src... */}
-      <img className="google-img" src={img} />
+      <img alt="google" className="google-img" src={img} />
     </div>
   </div>,
   document.getElementById("root")

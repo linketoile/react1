@@ -10,7 +10,10 @@ const year = currentDate.getFullYear();
 ReactDOM.render(
   <div>
     {/* class is className in js */}
-    <h1 className="heading">Header 1</h1>
+    {/* html attributs change to camel case: */}
+    <h1 className="heading" contentEditable="true" spellCheck="true">
+      Header 1
+    </h1>
     <p>Paragraph</p>
     <ul>
       <li> Tc1 </li>

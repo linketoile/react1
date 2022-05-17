@@ -7,7 +7,7 @@ function Heading() {
     /* class is className in js */
     /* html attributs change to camel case: */
     <h1 className="heading" contentEditable="true" spellCheck="true">
-      Title 1
+      Title 1...
     </h1>
   );
 }
